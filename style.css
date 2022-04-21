@@ -1,15 +1,15 @@
-/* body {
+body {
   font-family: 'Roboto', sans-serif;
 }
 
-.modal-window {
-  display: none;
+.link {
+  text-decoration: none;
 }
 
 .img-logo {
   font-family: 'Oleo Script', cursive;
-  /* font-family: 'Raleway', sans-serif; */
-  /* width: 146px;
+  font-family: 'Raleway', sans-serif;
+  width: 146px;
   height: 32px;
   left: 215px;
   top: 24px;
@@ -17,10 +17,9 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px; */ */
-  /* identical to box height */
+  line-height: 31px;
 
-  /* letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 
 .logo-part1 {
@@ -29,23 +28,14 @@
 
 .logo-part2 {
   color: black;
-} */
-
-/* #portfolio {
-  width: 500px;
-  height: 500px;
-  background-color: aqua;
 }
 
-#studiy {
-  width: 500px;
-  height: 500px;
-  background-color: rgb(88, 104, 104);
+.menu-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
 }
-
-#contacts {
-  width: 500px;
-  height: 500px;
-  background-color: rgb(164, 31, 212);
-} */
-
