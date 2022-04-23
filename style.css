@@ -1,7 +1,7 @@
 /* main style */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-main);
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -34,12 +34,15 @@ body {
 
 :root {
   --hovercolor: #2196f3;
+  --font-size-main: 14px;
+  --font-secondary: 'Raleway', sans-serif;
+  --font-main: 'Roboto', sans-serif;
 }
 
 /* header style */
 
 .img-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-secondary);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -57,7 +60,7 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -72,7 +75,7 @@ body {
 .phone-link,
 .email-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -116,7 +119,7 @@ body {
 /* section-skills */
 
 .skills-name {
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -126,7 +129,7 @@ body {
 
 .skills-description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -168,7 +171,7 @@ body {
 .address-map {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -177,7 +180,7 @@ body {
 .link-footer-number,
 .link-footer-email {
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
