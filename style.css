@@ -111,6 +111,7 @@ body {
 }
 
 .modal-button {
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -143,6 +144,23 @@ body {
 /* small-portfolio-section */
 
 /* section-teams */
+
+.team-container {
+  /* width: 1170px;
+  margin-right: auto;
+  margin-left: auto; */
+  background-color: #f5f4fa;
+}
+
+.team-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.team-card {
+  background-color: #ffffff;
+}
 
 .worker-name {
   font-weight: 500;
@@ -187,6 +205,18 @@ body {
 .link-footer-number,
 .link-footer-email {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-map:hover,
+.address-map:focus {
+  color: var(--hovercolor);
+}
+
+.link-footer-number:hover,
+.link-footer-email:hover,
+.link-footer-number:focus,
+.link-footer-email:focus {
+  color: var(--hovercolor);
 }
 
 /* modul window */

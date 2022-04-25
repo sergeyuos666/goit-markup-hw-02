@@ -1,6 +1,8 @@
-let h1 = document.querySelector('h1');
+// const portfolioBtn = document.querySelectorAll('.portfolio-filters-button');
+// const statusActive = document.querySelectorAll('.active');
+// console.log(portfolioBtn);
 
-// const promtH1 = prompt('Тестовый сайт');
 
-console.log(h1)
-// console.log(promtH1)
+
+
+
